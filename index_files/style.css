@@ -61,6 +61,20 @@ span {
   width: 30%;
 }
 
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  
+}
+
+.coding img {
+  display: block;
+  height: 200px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
 
 
 
